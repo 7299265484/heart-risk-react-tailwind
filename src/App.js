@@ -22,6 +22,7 @@ function App() {
     e.preventDefault();
     const res = await fetch("https://heart-risk-backend.onrender.com/predict", {
 
+
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData),
